@@ -8,8 +8,11 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "asyncro": "^3.0.0",
     "cheerio": "^1.0.0-rc.2",
-    "css": "^2.2.3"
+    "cli": "^1.0.1",
+    "css": "^2.2.3",
+    "glob": "^7.1.2"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.7"
