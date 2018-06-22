@@ -11,10 +11,7 @@ const cwd = process.cwd();
 
 (async function() {
   const files = await loadFiles(cli.args);
-  const cherrypickedCssFiles = cherrypick(
-    files["html"] || [],
-    files["css"] || []
-  );
+  const cherrypickedCssFiles = cherrypick(files);
   for (const cssFile of cherrypickedCssFiles) {
     cssFile.cherrypickedPath = path.resolve(
       "cherrypicked" + path.resolve(cssFile.path).substring(cwd.length)

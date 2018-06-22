@@ -19,10 +19,7 @@ describe("Cherrypicker", () => {
         outputFile.inputPath = outputFile.path.replace(outputRegex, "input");
       });
 
-      const cherrypickedFiles = cherrypick(
-        inputFiles["html"] || [],
-        inputFiles["css"] || []
-      );
+      const cherrypickedFiles = cherrypick(inputFiles);
 
       for (const cherrypickedFile of cherrypickedFiles) {
         const actualOutput = cherrypickedFile.output;
