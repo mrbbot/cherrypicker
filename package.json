@@ -4,9 +4,7 @@
   "main": "index.js",
   "author": "MrBBot",
   "license": "MIT",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": {},
   "dependencies": {
     "asyncro": "^3.0.0",
     "cheerio": "^1.0.0-rc.2",
@@ -16,7 +14,12 @@
     "mkdirp": "^0.5.1"
   },
   "devDependencies": {
-    "@types/cheerio": "^0.22.7"
+    "@types/cheerio": "^0.22.7",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.13.5"
   },
   "bin": {
     "cherrypicker": "./cli.js"
