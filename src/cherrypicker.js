@@ -4,9 +4,7 @@ const css = require("css");
 function checkSelector(selector, htmlFiles) {
     let pseudoIndex = selector.indexOf(":");
     if (pseudoIndex > -1) selector = selector.substring(0, pseudoIndex);
-
-    for (let htmlFile of htmlFiles) if (htmlFile.$(selector).length > 0) return true;
-    return false;
+    return htmlFiles.some(htmlFile => htmlFile.$(selector).length > 0);
 }
 
 function cherrypickNode(node, htmlFiles) {
@@ -35,6 +33,4 @@ function cherrypick(htmlFiles, cssFiles) {
     return cssFiles;
 }
 
-module.exports = {
-    cherrypick
-};
+module.exports = cherrypick;
