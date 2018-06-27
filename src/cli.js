@@ -1,12 +1,10 @@
 const { promisify, loadFiles } = require("./utils");
 
-const cli = require("cli").enable("glob");
+const cli = require("cli");
 const mkdirp = promisify(require("mkdirp"));
 const writeFile = promisify(require("fs").writeFile);
 const path = require("path");
 const cherrypick = require("./cherrypicker");
-
-const glob = promisify(cli.glob);
 const cwd = process.cwd();
 
 (async function() {

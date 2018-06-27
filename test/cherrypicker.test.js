@@ -3,8 +3,6 @@ const path = require("path");
 const { getDirs, loadFiles } = require("../src/utils");
 const cherrypick = require("../src/cherrypicker");
 
-const outputRegex = new RegExp("output", "g");
-
 describe("Cherrypicker", () => {
   for (const testCase of getDirs(path.resolve(__dirname, "cases"))) {
     it(`should work with the "${testCase}" test case`, async () => {
@@ -16,7 +14,7 @@ describe("Cherrypicker", () => {
 
       (outputFiles["css"] || []).forEach(outputFile => {
         // noinspection JSUndefinedPropertyAssignment
-        outputFile.inputPath = outputFile.path.replace(outputRegex, "input");
+        outputFile.inputPath = outputFile.path.replace("output", "input");
       });
 
       const cherrypickedFiles = cherrypick(inputFiles);
