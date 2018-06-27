@@ -3,6 +3,8 @@ const path = require("path");
 const { getDirs, loadFiles } = require("../src/utils");
 const cherrypick = require("../src/cherrypicker");
 
+const lineFeedRegex = new RegExp("\r\n", "g");
+
 describe("Cherrypicker", () => {
   for (const testCase of getDirs(path.resolve(__dirname, "cases"))) {
     it(`should work with the "${testCase}" test case`, async () => {
@@ -23,7 +25,7 @@ describe("Cherrypicker", () => {
         const actualOutput = cherrypickedFile.output;
         const expectedOutput = (outputFiles["css"] || []).find(
           outputFile => outputFile.inputPath === cherrypickedFile.path
-        ).content;
+        ).content.replace(lineFeedRegex, "\n");
 
         assert.strictEqual(actualOutput, expectedOutput);
       }

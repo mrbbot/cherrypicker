@@ -33,6 +33,17 @@ function cherrypick(files) {
       }))
     );
   }
+  if("vue" in files) {
+    markupFiles = markupFiles.concat(
+      files["vue"]
+        .map(file => cheerio.load(file.content))
+        .map($ => $("template"))
+        .filter($template => $template.get().length > 0)
+        .map($template => ({
+          $: cheerio.load($template.html())
+        }))
+    )
+  }
 
   const cssFiles = files["css"] || [];
   cssFiles.forEach(cssFile => {
