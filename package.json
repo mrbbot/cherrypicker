@@ -7,9 +7,11 @@
   "scripts": {},
   "dependencies": {
     "asyncro": "^3.0.0",
+    "chalk": "^2.4.1",
     "cheerio": "^1.0.0-rc.2",
     "cli": "^1.0.1",
     "css": "^2.2.3",
+    "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1"
   },
