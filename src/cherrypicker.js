@@ -33,7 +33,7 @@ function cherrypick(files) {
       }))
     );
   }
-  if("vue" in files) {
+  if ("vue" in files) {
     markupFiles = markupFiles.concat(
       files["vue"]
         .map(file => cheerio.load(file.content))
@@ -42,7 +42,7 @@ function cherrypick(files) {
         .map($template => ({
           $: cheerio.load($template.html())
         }))
-    )
+    );
   }
 
   const cssFiles = files["css"] || [];

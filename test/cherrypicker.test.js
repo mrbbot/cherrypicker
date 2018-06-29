@@ -23,9 +23,9 @@ describe("Cherrypicker", () => {
 
       for (const cherrypickedFile of cherrypickedFiles) {
         const actualOutput = cherrypickedFile.output;
-        const expectedOutput = (outputFiles["css"] || []).find(
-          outputFile => outputFile.inputPath === cherrypickedFile.path
-        ).content.replace(lineFeedRegex, "\n");
+        const expectedOutput = (outputFiles["css"] || [])
+          .find(outputFile => outputFile.inputPath === cherrypickedFile.path)
+          .content.replace(lineFeedRegex, "\n");
 
         assert.strictEqual(actualOutput, expectedOutput);
       }
