@@ -9,5 +9,8 @@
   "devDependencies": {
     "@types/cheerio": "^0.22.7",
     "cherrypicker-utils": "^0.0.1"
-  }
+  },
+  "files": [
+    "src"
+  ]
 }
