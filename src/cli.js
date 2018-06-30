@@ -24,8 +24,6 @@ const filesize = require("filesize");
       "cherrypicked" + path.resolve(cssFile.path).substring(cwd.length)
     );
 
-    console.log(cssFile);
-
     if (min) {
       cssFile.output = (await minifier.process(cssFile.output, {
         from: path.resolve(cwd, cssFile.path),
