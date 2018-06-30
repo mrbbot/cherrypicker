@@ -24,7 +24,7 @@ function cherrypickNode(node, markupFiles) {
   return removedRules;
 }
 
-async function cherrypick(files) {
+function cherrypick(files) {
   let markupFiles = [];
   if ("html" in files) {
     markupFiles = markupFiles.concat(

@@ -40,6 +40,7 @@ async function loadFiles(paths) {
   );
 }
 
+// noinspection JSValidateTypes
 const getDirs = src =>
   fs
     .readdirSync(src)

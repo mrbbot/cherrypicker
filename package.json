@@ -1,31 +1,12 @@
 {
-  "name": "cherrypicker",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "MrBBot",
-  "license": "MIT",
-  "scripts": {},
-  "dependencies": {
-    "asyncro": "^3.0.0",
-    "chalk": "^2.4.1",
-    "cheerio": "^1.0.0-rc.2",
-    "cli": "^1.0.1",
-    "css": "^2.2.3",
-    "cssnano": "^3.10.0",
-    "filesize": "^3.6.1",
-    "glob": "^7.1.2",
-    "mkdirp": "^0.5.1",
-    "postcss": "^6.0.23"
-  },
-  "devDependencies": {
-    "@types/cheerio": "^0.22.7",
-    "eslint": "^4.19.1",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.0",
-    "mocha": "^5.2.0",
-    "prettier": "^1.13.5"
-  },
-  "bin": {
-    "cherrypicker": "./cli.js"
-  }
+	"devDependencies": {
+		"eslint": "^5.0.1",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-prettier": "^2.6.1",
+		"lerna": "^2.11.0",
+		"prettier": "^1.13.7"
+	},
+	"dependencies": {
+		"mocha": "^5.2.0"
+	}
 }

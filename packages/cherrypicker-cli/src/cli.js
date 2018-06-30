@@ -1,4 +1,4 @@
-const { promisify, loadFiles } = require("./utils");
+const { promisify, loadFiles } = require("cherrypicker-cli-utils");
 
 const cli = require("cli");
 const { min } = cli.parse({
@@ -8,7 +8,7 @@ const { min } = cli.parse({
 const mkdirp = promisify(require("mkdirp"));
 const writeFile = promisify(require("fs").writeFile);
 const path = require("path");
-const cherrypick = require("./cherrypicker");
+const cherrypick = require("cherrypicker-core");
 const cwd = process.cwd();
 const postcss = require("postcss");
 const cssnano = require("cssnano");

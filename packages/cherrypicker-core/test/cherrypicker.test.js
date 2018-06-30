@@ -1,6 +1,6 @@
 const assert = require("assert");
 const path = require("path");
-const { getDirs, loadFiles } = require("../src/utils");
+const { getDirs, loadFiles } = require("cherrypicker-cli-utils");
 const cherrypick = require("../src/cherrypicker");
 
 const lineFeedRegex = new RegExp("\r\n", "g");

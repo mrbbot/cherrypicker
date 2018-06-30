@@ -1,0 +1,9 @@
+{
+  "name": "cherrypicker-cli-utils",
+  "version": "0.0.1",
+  "main": "src/utils.js",
+  "dependencies": {
+    "asyncro": "^3.0.0",
+    "glob": "^7.1.2"
+  }
+}
