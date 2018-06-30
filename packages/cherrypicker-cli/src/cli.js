@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { promisify, loadFiles } = require("cherrypicker-utils");
 
 const cli = require("cli");
