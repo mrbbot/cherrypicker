@@ -1,12 +1,20 @@
 {
   "name": "cherrypicker-utils",
   "version": "0.0.1",
+  "description": "Shared utilities for Cherrypicker packages",
   "main": "src/utils.js",
+  "files": [
+    "src"
+  ],
+  "repository": "mrbbot/cherrypicker",
+  "author": "MrBBot",
+  "license": "MIT",
+  "homepage": "https://github.com/mrbbot/cherrypicker/tree/master/packages/cherrypicker-utils",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "asyncro": "^3.0.0",
     "glob": "^7.1.2"
-  },
-  "files": [
-    "src"
-  ]
+  }
 }

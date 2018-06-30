@@ -1,6 +1,14 @@
 {
   "name": "cherrypicker-loader",
   "version": "0.0.1",
+  "description": "Webpack loader for Cherrypicker",
+  "repository": "mrbbot/cherrypicker",
+  "author": "MrBBot",
+  "license": "MIT",
+  "homepage": "https://github.com/mrbbot/cherrypicker/tree/master/packages/cherrypicker-loader",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "cherrypicker-utils": "^0.0.1"
   },
