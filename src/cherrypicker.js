@@ -24,7 +24,7 @@ function cherrypickNode(node, markupFiles) {
   return removedRules;
 }
 
-function cherrypick(files) {
+async function cherrypick(files) {
   let markupFiles = [];
   if ("html" in files) {
     markupFiles = markupFiles.concat(
@@ -46,7 +46,8 @@ function cherrypick(files) {
   }
 
   const cssFiles = files["css"] || [];
-  cssFiles.forEach(cssFile => {
+
+  for (const cssFile of cssFiles) {
     // noinspection JSUndefinedPropertyAssignment
     cssFile.stylesheet = css.parse(cssFile.content);
     // noinspection JSUndefinedPropertyAssignment, JSUnresolvedVariable
@@ -56,7 +57,8 @@ function cherrypick(files) {
     );
     // noinspection JSUndefinedPropertyAssignment
     cssFile.output = css.stringify(cssFile.stylesheet);
-  });
+  }
+
   return cssFiles;
 }
 
