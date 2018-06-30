@@ -1,5 +1,5 @@
-const { loadFiles } = require("cherrypicker-utils");
-const cherrypick = require("cherrypicker-core");
+const { loadFiles } = require("packages/cherrypicker-utils/src/utils");
+const cherrypick = require("packages/cherrypicker-core/src/cherrypicker");
 
 async function transform(cssSource, markupFilePaths, webpack) {
   const files = await loadFiles(markupFilePaths);
