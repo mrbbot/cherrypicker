@@ -2,9 +2,9 @@
 ## Installation
 Install the loader, and the core library, using npm or Yarn.
 ```bash
-npm install cherrypicker-loader cherrypicker-core
+npm install cherrypicker-loader cherrypicker
 
-yarn add cherrypicker-loader cherrypicker-core
+yarn add cherrypicker-loader cherrypicker
 ```
 
 ## Usage

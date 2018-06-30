@@ -1,5 +1,5 @@
 {
-  "name": "cherrypicker-core",
+  "name": "cherrypicker",
   "version": "0.0.1",
   "description": "Cherrypicker core functionality",
   "main": "src/cherrypicker.js",
@@ -9,7 +9,7 @@
   "repository": "mrbbot/cherrypicker",
   "author": "MrBBot",
   "license": "MIT",
-  "homepage": "https://github.com/mrbbot/cherrypicker/tree/master/packages/cherrypicker-core",
+  "homepage": "https://github.com/mrbbot/cherrypicker/tree/master/packages/cherrypicker",
   "publishConfig": {
     "access": "public"
   },

@@ -18,7 +18,7 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "cherrypicker-utils": "^0.0.1",
-    "cherrypicker-core": "^0.0.1",
+    "cherrypicker": "^0.0.1",
     "cli": "^1.0.1",
     "cssnano": "^3.10.0",
     "filesize": "^3.6.1",
