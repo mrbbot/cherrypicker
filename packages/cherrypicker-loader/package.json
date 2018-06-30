@@ -1,0 +1,13 @@
+{
+  "name": "cherrypicker-loader",
+  "version": "0.0.1",
+  "dependencies": {
+    "cherrypicker-utils": "^0.0.1"
+  },
+  "devDependencies": {
+    "cherrypicker-core": "^0.0.1"
+  },
+  "peerDependencies": {
+    "cherrypicker-core": "^0.0.1"
+  }
+}

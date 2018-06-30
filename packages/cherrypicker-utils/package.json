@@ -1,5 +1,5 @@
 {
-  "name": "cherrypicker-cli-utils",
+  "name": "cherrypicker-utils",
   "version": "0.0.1",
   "main": "src/utils.js",
   "dependencies": {

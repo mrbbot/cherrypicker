@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "chalk": "^2.4.1",
-    "cherrypicker-cli-utils": "^0.0.1",
+    "cherrypicker-utils": "^0.0.1",
     "cherrypicker-core": "^0.0.1",
     "cli": "^1.0.1",
     "cssnano": "^3.10.0",

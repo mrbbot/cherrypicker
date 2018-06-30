@@ -1,4 +1,4 @@
-const { promisify, loadFiles } = require("cherrypicker-cli-utils");
+const { promisify, loadFiles } = require("cherrypicker-utils");
 
 const cli = require("cli");
 const { min } = cli.parse({
