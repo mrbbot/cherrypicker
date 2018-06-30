@@ -1,6 +1,6 @@
 {
   "name": "cherrypicker-utils",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Shared utilities for Cherrypicker packages",
   "main": "src/utils.js",
   "files": [

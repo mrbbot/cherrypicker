@@ -1,6 +1,6 @@
 {
   "name": "cherrypicker",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Cherrypicker core functionality",
   "main": "src/cherrypicker.js",
   "files": [
@@ -19,6 +19,6 @@
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.7",
-    "cherrypicker-utils": "^0.0.1"
+    "cherrypicker-utils": "^0.1.0"
   }
 }
