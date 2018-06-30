@@ -81,3 +81,6 @@ If you're using the new `@vue/cli`, you can add a plugin to modify your producti
 ```bash
 vue add cherrypicker
 ```
+
+## TODO
+- [ ] JSX Support
