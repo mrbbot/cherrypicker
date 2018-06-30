@@ -1,6 +1,6 @@
 {
   "name": "cherrypicker-cli",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Command line interface for Cherrypicker",
   "bin": {
     "cherrypicker": "./src/cli.js"
