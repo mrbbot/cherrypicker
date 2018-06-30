@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-cherrypicker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue cli plugin for Cherrypicker",
   "repository": "mrbbot/cherrypicker",
   "author": "MrBBot",
@@ -10,6 +10,7 @@
     "access": "public"
   },
   "dependencies": {
+    "cherrypicker": "^0.1.0",
     "cherrypicker-loader": "^0.1.0"
   }
 }
