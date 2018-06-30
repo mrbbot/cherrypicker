@@ -1,5 +1,7 @@
 # Cherrypicker
 
+**THIS IS STILL A WORK IN PROGRESS!!! OFTEN TOO MANY STYLES WILL BE REMOVED MAKING A PAGE UNUSABLE!!!**
+
 Tool to reduce the size of CSS files by removing unused styles from them.
 
 ![CLI Example](packages/cherrypicker-cli/cli.png)
