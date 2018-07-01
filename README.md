@@ -83,4 +83,5 @@ vue add cherrypicker
 ```
 
 ## TODO
+- [ ] Rewrite as PostCSS Plugin
 - [ ] JSX Support
