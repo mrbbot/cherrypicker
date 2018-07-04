@@ -1,3 +1,5 @@
+# DEPRECATED: please use [postcss-cherrypicker](https://github.com/mrbbot/postcss-cherrypicker) instead
+
 # Cherrypicker CLI
 ## Installation
 Install it globally using npm or Yarn.

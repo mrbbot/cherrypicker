@@ -1,3 +1,5 @@
+# DEPRECATED: please use [postcss-cherrypicker](https://github.com/mrbbot/postcss-cherrypicker) instead
+
 # Cherrypicker Loader
 ## Installation
 Install the loader, and the core library, using npm or Yarn.

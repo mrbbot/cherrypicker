@@ -1,6 +1,6 @@
-# Cherrypicker
+# DEPRECATED: please use [postcss-cherrypicker](https://github.com/mrbbot/postcss-cherrypicker) instead
 
-**THIS IS STILL A WORK IN PROGRESS!!! OFTEN TOO MANY STYLES WILL BE REMOVED MAKING A PAGE UNUSABLE!!!**
+# Cherrypicker
 
 Tool to reduce the size of CSS files by removing unused styles from them.
 
